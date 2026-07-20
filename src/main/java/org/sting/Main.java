@@ -1,15 +1,21 @@
 package org.sting;
 
-public class Main {public int diff21(int n) {
-    if (n > 21){
-        return (n - 21) * 2;
+public class Main {
+    public boolean parrotTrouble(boolean talking, int hour) {
+        if (talking && (hour < 7 || hour > 20)){
+            return true;
+
+        }
+        return false;
+
+
+
     }
-    return 21 - n;
 
 }
 
 
 
 
-}
+
 
