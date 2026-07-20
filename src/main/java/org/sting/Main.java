@@ -1,18 +1,14 @@
 package org.sting;
 
 public class Main {
-    public boolean parrotTrouble(boolean talking, int hour) {
-        if (talking && (hour < 7 || hour > 20)){
-            return true;
-
-        }
-        return false;
-
+    public boolean makes10(int a, int b) {
+        return a == 10 || b == 10 || a + b == 10;
+    }
 
 
     }
 
-}
+
 
 
 
